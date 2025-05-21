@@ -11,30 +11,36 @@
       <h1>Tienda</h1>
 
       <div class="container-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+          <div class="container-cart-icon">
+             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
           <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
         </svg>
 
         <div class="count-product">
           <span id="contador-productos">0</span>
         </div>
+          </div>
+       
 
         <div class="container-cart-products hidden-cart">
-          <div class="cart-product">
-            <div class="info-cart-product">
-              <span>
-                <div class="cantidad-producto-carrito">1</div>
-              </span>
-              <p class="titulo-producto-carrito">Tote bag negra</p>
-              <span class="precio-producto-carrito">25$</span>
+            <div class="row-product">
+              <div class="cart-product">
+                <div class="info-cart-product">
+                  <span>
+                    <div class="cantidad-producto-carrito">1</div>
+                  </span>
+                  <p class="titulo-producto-carrito">Tote bag negra</p>
+                  <span class="precio-producto-carrito">25$</span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+              
             </div>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-            </svg>
           </div>
           <div class="cart-total">
             <h3>Total</h3>
-            <span class="total-pagar">800$</span>
+            <span class="total-pagar">$800</span>
           </div>
         </div>
       </div>
@@ -47,8 +53,8 @@
         </figure>
         <div class="info-product">
           <h2>Buick Riviera 1972 stock</h2>
-          <p class="price">250$</p>
-          <button>Añadir al carrito</button>
+          <p class="price">$250</p>
+          <button class="btn-add-cart">Añadir al carrito</button>
         </div>
       </div>
 
@@ -58,8 +64,8 @@
         </figure>
         <div class="info-product">
           <h2>Bicicleta bmx roja</h2>
-          <p class="price">60$</p>
-          <button>Añadir al carrito</button>
+          <p class="price">$60</p>
+          <button class="btn-add-cart">Añadir al carrito</button>
         </div>
       </div>
 
@@ -69,8 +75,8 @@
         </figure>
         <div class="info-product">
           <h2>Cartera</h2>
-          <p class="price">17.99$</p>
-          <button>Añadir al carrito</button>
+          <p class="price">$19</p>
+          <button class="btn-add-cart">Añadir al carrito</button>
         </div>
       </div>
 
@@ -80,8 +86,8 @@
         </figure>
         <div class="info-product">
           <h2>Binoculares</h2>
-          <p class="price">70$</p>
-          <button>Añadir al carrito</button>
+          <p class="price">$70</p>
+          <button class="btn-add-cart">Añadir al carrito</button>
         </div>
       </div>
 
@@ -91,19 +97,18 @@
         </figure>
         <div class="info-product">
           <h2>Moto deportiva</h2>
-          <p class="price">195$</p>
-          <button>Añadir al carrito</button>
+          <p class="price">$195</p>
+          <button class="btn-add-cart">Añadir al carrito</button>
         </div>
       </div>
-
       <div class="item">
         <figure>
           <img src="https://media.istockphoto.com/id/1777940282/vector/hand-drawn-shopping-bag-icon-vector-illustration.jpg?s=612x612&w=0&k=20&c=cqgnS77ZySAdX1TdiPl-YOj3zriGhgvmER4PwNdsmbk=" alt="producto">
         </figure>
         <div class="info-product">
           <h2>Tote bag negra</h2>
-          <p class="price">25$</p>
-          <button>Añadir al carrito</button>
+          <p class="price">$25</p>
+          <button class="btn-add-cart">Añadir al carrito</button>
         </div>
       </div>
     </div>
